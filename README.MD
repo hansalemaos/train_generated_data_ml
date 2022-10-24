@@ -3,6 +3,7 @@
 [GitHub - hansalemaos/generate_training_data_ml](https://github.com/hansalemaos/generate_training_data_ml)
 
 ```python
+pip install train-generated-data-ml
 $ python train_generated_data_ml.py YOURCONFIGFILE #Config file explanation here: https://github.com/hansalemaos/generate_training_data_ml
 ```
 
