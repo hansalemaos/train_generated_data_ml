@@ -57,8 +57,7 @@ def run_yolov5_training(config_file):
     allyolofiles = [
         x
         for x in getListOfFiles(
-            dirName=os.path.join(os.path.abspath(os.path.dirname(__file__)))
-        )
+            dirName=os.path.dirname(sys.executable))
         if "yolo" in x
     ]
 
